@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
-    "build": "tsc",
-    "start": "node dist/index.js"
+    "build": "tsc && cp -R src/data dist/data",
+    "start": "npm run build && node dist/index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
