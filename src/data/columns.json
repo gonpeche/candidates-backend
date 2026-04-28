@@ -1,0 +1,20 @@
+{
+  "id": false,
+  "name": true,
+  "document": true,
+  "cv_zonajobs": true,
+  "cv_bumeran": false,
+  "phone": false,
+  "email": true,
+  "date": true,
+  "age": false,
+  "has_university": false,
+  "career": true,
+  "graduated": false,
+  "courses_approved": false,
+  "location": false,
+  "accepts_working_hours": false,
+  "desired_salary": true,
+  "had_interview": false,
+  "reason": true
+}
