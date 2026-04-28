@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
-    "build": "tsc && cp -R src/data dist/data",
+    "build": "tsc && mkdir -p dist/data && cp -R src/data/. dist/data",
     "start": "npm run build && node dist/index.js"
   },
   "dependencies": {
